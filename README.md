@@ -7,12 +7,10 @@ This customization demonstrates how to create a custom user interface to communi
 
 ## Prerequisites ##
 
-This customization requires you to intsall the Infinity SDK for your hosted version of Altru or another Infinity application.
- 
-The Blackbaud.AppFx.WebAPI.dll that this customization uses to ease communication to the AppFxWebService.asmx has a dependency on .NET Framework 4.0.
+This customization requires you to intsall the Infinity SDK for your hosted version of Altru or another Infinity application. The Blackbaud.AppFx.WebAPI.dll that this customization uses to ease communication to the AppFxWebService.asmx has a dependency on .NET Framework 4.0.
 
 ##Resources##
-* See the [Blackbaud CRM Read Me](https://github.com/blackbaud-community/Blackbaud-CRM/blob/master/README.md). 
+* See the [Blackbaud CRM Read Me](https://github.com/blackbaud-community/Blackbaud-CRM/blob/master/README.md)
 * [Step by Step Instructions](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/inwebapi-developer-help/Content/InfinityWebAPI/coExampleConsumingTheBlackbaudAppFxWebServiceUsingANETWinFormsClient.htm) for consuming the Blackbaud AppFx Web Service
 * [Infinity Web API](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/inwebapi-developer-help/Content/InfinityWebAPI/WelcomeInfinityWebAPI.htm) Chapter within Developer Guides
 
