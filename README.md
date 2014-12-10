@@ -3,7 +3,7 @@ Blackbaud-CRM-Custom-Event-Manager-WebAPI-DLL
 
 ## What You Will Build ##
 
-This customization demonstrates how to create a custom user interface to communicate with a hosted Blackbaud Altru application and to retrieve a list of events from the Infinity database. All communication with Infinity-based applications utilize the Blackbaud AppFx Web Service either directly through web service calls to AppFxWebService.asmx or through one of the various middleware "wrappers" that call the AppFxWebService.asmx on our behalf.
+This customization demonstrates how to create a custom user interface to communicate with a hosted Blackbaud Altru application and to retrieve a list of events from the Infinity database. This code sample can be modified for on premise or hosted Blackbaud CRM instances, as well.  All communication with Infinity-based applications utilize the Blackbaud AppFx Web Service either directly through web service calls to AppFxWebService.asmx or through one of the various middleware "wrappers" that call the AppFxWebService.asmx on our behalf.
 
 ## Prerequisites ##
 
