@@ -17,7 +17,7 @@ Review code CustomEventManagerWebAPIDll\CustomerEventManager\Form.vb.  you will 
 - Provide a key which identifies the database
 2. Within GetNetworkCredentials() provide the following:
 - Ensure you have a user within the application with sufficient rights to the features used in this code sample.
-- Provide tne appropriate user name and password
+- Provide the appropriate user name and password
 
 
 
