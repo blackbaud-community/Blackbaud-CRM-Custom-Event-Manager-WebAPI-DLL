@@ -9,6 +9,18 @@ This customization demonstrates how to create a custom user interface to communi
 
 This customization requires you to intsall the Infinity SDK for your hosted version of Altru or another Infinity application. The Blackbaud.AppFx.WebAPI.dll that this customization uses to ease communication to the AppFxWebService.asmx has a dependency on .NET Framework 4.0.
 
+Review code CustomEventManagerWebAPIDll\CustomerEventManager\Form.vb.  you will need to provide the following infomration to point to the correct web service and database.
+
+1. Within InitializeAppFxWebService() provide the following:
+- AppFxWebService.asmx URL for your specific environment
+- ClientAppName which will be logged in the Infinity database and used for auditing purposes
+- Provide a key which identifies the database
+2. Within GetNetworkCredentials() provide the following:
+- Ensure you have a user within the application with sufficient rights to the features used in this code sample.
+- Provide tne appropriate user name and password
+
+
+
 ##Resources##
 * See the [Blackbaud CRM Read Me](https://github.com/blackbaud-community/Blackbaud-CRM/blob/master/README.md)
 * [Step by Step Instructions](https://www.blackbaud.com/files/support/guides/infinitydevguide/infsdk-developer-help.htm#../Subsystems/inwebapi-developer-help/Content/InfinityWebAPI/coExampleConsumingTheBlackbaudAppFxWebServiceUsingANETWinFormsClient.htm) for consuming the Blackbaud AppFx Web Service
