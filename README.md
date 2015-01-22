@@ -11,11 +11,12 @@ This customization requires you to intsall the Infinity SDK for your hosted vers
 
 Review code CustomEventManagerWebAPIDll\CustomerEventManager\Form.vb.  you will need to provide the following infomration to point to the correct web service and database.
 
-1. Within InitializeAppFxWebService() provide the following:
+###Within InitializeAppFxWebService() provide the following:
 - AppFxWebService.asmx URL for your specific environment
 - ClientAppName which will be logged in the Infinity database and used for auditing purposes
 - Provide a key which identifies the database
-2. Within GetNetworkCredentials() provide the following:
+
+###Within GetNetworkCredentials() provide the following:
 - Ensure you have a user within the application with sufficient rights to the features used in this code sample.
 - Provide the appropriate user name and password
 
