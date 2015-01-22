@@ -54,8 +54,8 @@ Public Class Form1
             'Grab the url from the Blackbaud AppFX Server HTTP Endpoint Reference 
             ' (endpointhelp.html).  For Altru, a link to the endpointhelp.html is available via the Resources for Developers
             'link in the top right corner of the branding splash/candystore page
-            _appFx.Url = "https://altrurig01bo3.blackbaudhosting.com/5740Altru_9a731bb7-0e50-48e3-b8c3-e03e16a5ac15/appfxwebservice.asmx"
-            '_appFx.Url = "http://localhost/bbappfx/appfxwebservice.asmx"
+            ._appFx.Url = "https://<some altru base url/appfxwebservice.asmx"
+            _appFx.Url = "http://localhost/bbappfx/appfxwebservice.asmx"
 
             'Provide the ClientAppName which will be logged in the Infinity database and 
             ' used for auditing purposes.
